@@ -1,0 +1,887 @@
+PassengerId,Survived,Pclass,Sex,SibSp,Parch,Age,Boarded,Destination,Class
+1,0,3,male,1,0,22,Southampton,"Qu'Appelle Valley, Saskatchewan, Canada",3
+2,1,1,female,1,0,35,Cherbourg,"New York, New York, US",1
+3,1,3,female,0,0,26,Southampton,New York City,3
+4,1,1,female,1,0,35,Southampton,"Scituate, Massachusetts, US",1
+5,0,3,male,0,0,35,Southampton,New York City,3
+6,0,3,male,0,0,22,Queenstown,New York City,3
+7,0,1,male,0,0,54,Southampton,"Dorchester, Massachusetts, US",1
+8,0,3,male,3,1,2,Southampton,"Chicago, Illinois, US",3
+9,1,3,female,0,2,26,Southampton,"St. Charles, Illinois, US",3
+10,1,2,female,1,0,14,Cherbourg,"Cleveland, Ohio, US",2
+11,1,3,female,1,1,4,Southampton,"San Francisco, US",3
+12,1,1,female,0,0,61,Southampton,"Youngstown, Ohio, US",1
+13,0,3,male,0,0,19,Southampton,New York City,3
+14,0,3,male,1,5,39,Southampton,"Winnipeg, Manitoba, Canada",3
+15,0,3,female,0,0,14,Southampton,"Los Angeles, US",3
+16,1,2,female,0,0,56,Southampton,"Rapid City, South Dakota, US",2
+17,0,3,male,4,1,2,Queenstown,"Spokane, Washington, US",3
+18,1,2,male,0,0,23,Southampton,"Chicago, Illinois, US",2
+19,0,3,female,1,0,31,Southampton,"Fremont, Ohio, US",3
+20,1,3,female,0,0,22,Cherbourg,"Michigan City, Indiana, US",3
+21,0,2,male,0,0,35,Southampton,"Montreal, Quebec, Canada",2
+22,1,2,male,0,0,34,Southampton,"Toronto, Ontario, Canada",2
+23,1,3,female,0,0,16,Queenstown,"Chicago, Illinois, US",3
+24,1,1,male,0,0,28,Southampton,"New Britain, Connecticut, US",1
+25,0,3,female,3,1,8,Southampton,"Chicago, Illinois, US",3
+26,1,3,female,1,5,38,Southampton,"Worcester, Massachusetts, US",3
+27,0,3,male,0,0,25,Cherbourg,New York City,3
+28,0,1,male,3,2,19,Southampton,"Winnipeg, Manitoba, Canada",1
+29,1,3,female,0,0,25,Queenstown,New York City,3
+30,0,3,male,0,0,23,Southampton,"Chicago, Illinois, US",3
+31,0,1,male,0,0,40,Cherbourg,"Mexico City, Mexico",1
+32,1,1,female,1,0,45,Cherbourg,"New York, New York, US",1
+33,1,3,female,0,0,19,Queenstown,"Washington, DC, US",3
+34,0,2,male,0,0,66,Southampton,"Edgewood, Rhode Island, US",2
+35,0,1,male,1,0,28,Cherbourg,"New York, New York, US",1
+36,0,1,male,1,0,42,Southampton,"New York, New York, US",1
+37,1,3,male,0,0,20,Cherbourg,"Philadelphia, Pennsylvania, US",3
+38,0,3,male,0,0,21,Southampton,New York City,3
+39,0,3,female,2,0,18,Southampton,"Fremont, Ohio, US",3
+40,1,3,female,1,0,14,Cherbourg,"Jacksonville, Florida, US",3
+41,0,3,female,1,0,40,Southampton,"Akeley, Minnesota, US",3
+42,0,2,female,1,0,27,Southampton,"Salt Lake City, Utah, US",2
+44,1,2,female,1,2,3,Cherbourg,"Cap-Ha?ien, Haiti",2
+45,1,3,female,0,0,19,Queenstown,New York City,3
+46,0,3,male,0,0,29,Southampton,New York City,3
+47,0,3,male,1,0,20,Queenstown,New York City,3
+48,1,3,female,0,0,24,Queenstown,"Jersey City, New Jersey, US",3
+49,0,3,male,2,0,16,Cherbourg,"Wilkes-Barre, Pennsylvania, US",3
+50,0,3,female,1,0,18,Southampton,"New Glarus, Wisconsin, US",3
+51,0,3,male,4,1,7,Southampton,"Coal Center, Pennsylvania, US",3
+52,0,3,male,0,0,21,Southampton,"Buffalo, New York, US",3
+53,1,1,female,1,0,49,Cherbourg,"New York, New York, US",1
+54,1,2,female,1,0,29,Southampton,"Philadelphia, Pennsylvania, US",2
+55,0,1,male,0,1,64,Southampton,"Providence, Rhode Island, US",1
+56,1,1,male,0,0,45,Southampton,"New York, New York, US",1
+57,1,2,female,0,0,21,Southampton,"Wilmington, Delaware, US",2
+58,0,3,male,0,0,20,Cherbourg,"Ottawa, Ontario, Canada",3
+59,1,2,female,1,2,4,Southampton,"Gainesville, Florida, US",2
+60,0,3,male,5,2,13,Southampton,"Niagara Falls, New York, US",3
+61,0,3,male,0,0,22,Cherbourg,"Brantford, Ontario, Canada",3
+62,1,1,female,0,0,38,Southampton,"New York, New York, US",1
+63,0,1,male,1,0,45,Southampton,"New York, New York, US",1
+64,0,3,male,3,2,5,Southampton,"Iron Mountain, Michigan, US",3
+65,0,1,male,0,0,54,Cherbourg,"Gallipolis, Ohio, US",1
+66,1,3,male,1,1,7,Cherbourg,"Houtzdale, Pennsylvania, US",3
+67,1,2,female,0,0,29,Southampton,"East Orange, New Jersey, US",2
+68,0,3,male,0,0,19,Southampton,"Cleveland, Ohio, US",3
+69,1,3,female,4,2,17,Southampton,New York City,3
+70,0,3,male,2,0,26,Southampton,"Milwaukee, Wisconsin, US",3
+71,0,2,male,0,0,32,Southampton,"Houghton, Michigan, US",2
+72,0,3,female,5,2,16,Southampton,"Niagara Falls, New York, US",3
+73,0,2,male,0,0,21,Southampton,"Manitoba, Canada",2
+74,0,3,male,1,0,26,Cherbourg,New York City,3
+75,1,3,male,0,0,32,Southampton,New York City,3
+76,0,3,male,0,0,25,Southampton,"Minneapolis, Minnesota, US",3
+77,0,3,male,0,0,23,Southampton,"Chicago, Illinois, US",3
+78,0,3,male,0,0,28,Southampton,New York City,3
+79,1,2,male,0,2,0.83,Southampton,"Roseville, Illinois, US",2
+80,1,3,female,0,0,31,Southampton,New York City,3
+81,0,3,male,0,0,22,Southampton,"Stanton, Ohio, US",3
+82,1,3,male,0,0,29,Southampton,"Detroit, Michigan, US",3
+83,1,3,female,0,0,31,Queenstown,"Chicago, Illinois, US",3
+84,0,1,male,0,0,31,Southampton,"Montevideo, Uruguay",1
+85,1,2,female,0,0,17,Southampton,"Atlanta, Georgia, US",2
+86,1,3,female,3,0,33,Southampton,New York City,3
+87,0,3,male,1,3,16,Southampton,"Essex County, New Jersey, US",3
+88,0,3,male,0,0,20,Southampton,New York City,3
+89,1,1,female,3,2,23,Southampton,"Winnipeg, Manitoba, Canada",1
+90,0,3,male,0,0,24,Southampton,New York City,3
+91,0,3,male,0,0,29,Southampton,New York City,3
+92,0,3,male,0,0,20,Southampton,"Chicago, Illinois, US",3
+93,0,1,male,1,0,46,Southampton,"Amenia, North Dakota, US",1
+94,0,3,male,1,2,25,Southampton,"Wichita, Kansas, US",3
+95,0,3,male,0,0,59,Southampton,"Merrill, Wisconsin, US",3
+96,0,3,male,0,0,22,Southampton,"New York, US",3
+97,0,1,male,0,0,71,Cherbourg,"New York, New York, US",1
+98,1,1,male,0,1,23,Cherbourg,"New York, New York, US",1
+99,1,2,female,0,1,34,Southampton,New York City,2
+100,0,2,male,1,0,34,Southampton,"Bronx, New York, US",2
+101,0,3,female,0,0,28,Southampton,"Harrisburg, Pennsylvania, US",3
+102,0,3,male,0,0,29,Southampton,"Chicago, Illinois, US",3
+103,0,1,male,0,1,21,Southampton,"Brunswick, Maine, US",1
+104,0,3,male,0,0,33,Southampton,"Cheyenne, North Dakota, US",3
+105,0,3,male,2,0,37,Southampton,New York City,3
+106,0,3,male,0,0,28,Southampton,"Chicago, Illinois, US",3
+107,1,3,female,0,0,21,Southampton,"Proctor, Minnesota, US",3
+108,1,3,male,0,0,29,Southampton,New York City,3
+109,0,3,male,0,0,38,Southampton,"Harrisburg, Pennsylvania, US",3
+110,1,3,female,1,0,28,Queenstown,"Brooklyn, New York, US",3
+111,0,1,male,0,0,46,Southampton,"Worcester, Massachusetts, US",1
+112,0,3,female,1,0,16,Cherbourg,New York City,3
+113,0,3,male,0,0,22,Southampton,New York City,3
+114,0,3,female,1,0,20,Southampton,New York City,3
+115,0,3,female,0,0,17,Cherbourg,New York City,3
+116,0,3,male,0,0,21,Southampton,New York City,3
+117,0,3,male,0,0,61,Queenstown,New York City,3
+118,0,2,male,1,0,29,Southampton,"Salt Lake City, Utah, US",2
+119,0,1,male,0,1,24,Cherbourg,"Montreal, Quebec, Canada",1
+120,0,3,female,4,2,2,Southampton,"Winnipeg, Manitoba, Canada",3
+121,0,2,male,2,0,20,Southampton,"The Pas, Manitoba, Canada",2
+122,0,3,male,0,0,19,Southampton,"Hoboken, New Jersey, US",3
+123,0,2,male,1,0,28,Cherbourg,"Cleveland, Ohio, US",2
+124,1,2,female,0,0,37,Southampton,"Hartford, Connecticut, US",2
+125,0,1,male,0,1,54,Southampton,"Brunswick, Maine, US",1
+126,1,3,male,1,0,12,Cherbourg,"Jacksonville, Florida, US",3
+127,0,3,male,0,0,20,Queenstown,New York City,3
+128,1,3,male,0,0,24,Southampton,"Brooklyn, New York, US",3
+129,1,3,female,1,1,2,Cherbourg,"Detroit, Michigan, US",3
+130,0,3,male,0,0,45,Southampton,"Effington Rut, South Dakota, US",3
+131,0,3,male,0,0,33,Cherbourg,New York City,3
+132,0,3,male,0,0,20,Southampton,New York City,3
+133,0,3,female,1,0,47,Southampton,"Yonkers, New York, US",3
+134,1,2,female,1,0,37,Southampton,"Montreal, Quebec, Canada",2
+135,0,2,male,0,0,25,Southampton,"Houghton, Michigan, US",2
+136,0,2,male,0,0,23,Cherbourg,"Montreal, Quebec, Canada",2
+137,1,1,female,0,2,19,Southampton,"New York, New York, US",1
+138,0,1,male,1,0,37,Southampton,"Scituate, Massachusetts, US",1
+139,0,3,male,0,0,16,Southampton,"Mitchell, South Dakota, US",3
+140,0,1,male,0,0,24,Cherbourg,"New York, New York, US",1
+141,0,3,female,0,2,40,Cherbourg,"Kent, British Columbia, Canada",3
+142,1,3,female,0,0,22,Southampton,"Hackensack, New Jersey, US",3
+143,1,3,female,1,0,24,Southampton,"Monessen, Pennsylvania, US",3
+144,0,3,male,0,0,19,Queenstown,"Charlestown, US",3
+145,0,2,male,0,0,17,Southampton,"Trenton, New Jersey, US",2
+146,0,2,male,1,1,19,Southampton,"Houghton, Michigan, US",2
+147,1,3,male,0,0,27,Southampton,"Chicago, Illinois, US",3
+148,0,3,female,2,2,7,Southampton,"Essex County, New Jersey, US",3
+149,0,2,male,0,2,32,Southampton,New York City,2
+150,0,2,male,0,0,42,Southampton,"Jacksonville, Florida, US",2
+151,0,2,male,0,0,51,Southampton,"Jacksonville, Florida, US",2
+152,1,1,female,1,0,22,Southampton,"New York, New York, US",1
+153,0,3,male,0,0,48,Southampton,"Washington, DC, US",3
+154,0,3,male,0,2,35,Southampton,"North Wales, Pennsylvania, US",3
+155,0,3,male,0,0,27,Southampton,"Broderick, Canada",3
+156,0,1,male,0,1,51,Cherbourg,"Radnor, Pennsylvania, US",1
+157,1,3,female,0,0,17,Queenstown,New York City,3
+158,0,3,male,0,0,30,Southampton,New York City,3
+159,0,3,male,0,0,37,Southampton,New York City,3
+160,0,3,male,8,2,4,Southampton,"Jacksonville, Florida, US",3
+161,0,3,male,0,1,44,Southampton,"Newark, New Jersey, US",3
+162,1,2,female,0,0,40,Southampton,"Portland, Oregon, US",2
+163,0,3,male,0,0,26,Southampton,"Monee, Illinois, US",3
+164,0,3,male,0,0,17,Southampton,"Sault Ste. Marie, Michigan, US",3
+165,0,3,male,4,1,1,Southampton,"Coal Center, Pennsylvania, US",3
+166,1,3,male,0,2,9,Southampton,"Detroit, Michigan, US",3
+167,1,1,female,0,1,48,Southampton,"New York, New York, US",1
+168,0,3,female,1,4,43,Southampton,"Iron Mountain, Michigan, US",3
+169,0,1,male,0,0,60,Cherbourg,"New York, New York, US",1
+170,0,3,male,0,0,24,Southampton,New York City,3
+171,0,1,male,0,0,61,Belfast,"Brooklyn, New York, US",1
+172,0,3,male,4,1,4,Queenstown,"Spokane, Washington, US",3
+173,1,3,female,1,1,1,Southampton,"St. Charles, Illinois, US",3
+174,0,3,male,0,0,21,Southampton,"Mountain Home, Idaho, US",3
+175,0,1,male,0,0,56,Cherbourg,"Long Island, New York, US",1
+176,0,3,male,1,1,18,Southampton,New York City,3
+177,0,3,male,3,1,5,Southampton,"Mystic, Iowa, US",3
+178,0,1,female,0,0,50,Cherbourg,"Chicago, Illinois, US",1
+179,0,2,male,0,0,30,Southampton,"Auburn, New York, US",2
+180,0,3,male,0,0,36,Southampton,New York City,3
+181,0,3,female,8,2,7,Southampton,"Jacksonville, Florida, US",3
+182,0,2,male,0,0,39,Cherbourg,"New York, New York, US",1
+183,0,3,male,4,2,9,Southampton,"Worcester, Massachusetts, US",3
+184,1,2,male,2,1,1,Southampton,"Benton Harbor, Michigan, US",2
+185,1,3,female,0,2,4,Southampton,"Milwaukee, Wisconsin, US",3
+186,0,1,male,0,0,38,Southampton,"Seattle, Washington, US",1
+187,1,3,female,1,0,26,Queenstown,New York City,3
+188,1,1,male,0,0,45,Southampton,"New York, New York, US",1
+189,0,3,male,1,1,42,Queenstown,"Chicago, Illinois, US",3
+190,0,3,male,0,0,36,Southampton,"Youngstown, Ohio, US",3
+191,1,2,female,0,0,21,Southampton,"Brooklyn, New York, US",2
+192,0,2,male,0,0,19,Southampton,"Houghton, Michigan, US",2
+193,1,3,female,1,0,19,Southampton,"Portland, Oregon, US",3
+194,1,2,male,1,1,3,Southampton,New York City,2
+195,1,1,female,0,0,44,Cherbourg,"Denver, Colorado, US",1
+196,1,1,female,0,0,59,Cherbourg,"New York, New York, US",1
+197,0,3,male,0,0,26,Queenstown,"Chicago, Illinois, US",3
+198,0,3,male,0,1,42,Southampton,"Brooklyn, New York, US",3
+199,1,3,female,0,0,21,Queenstown,New York City,3
+200,0,2,female,0,0,24,Southampton,"Montreal, Quebec, Canada",2
+201,0,3,male,0,0,28,Southampton,New York City,3
+202,0,3,male,8,2,16,Southampton,"Jacksonville, Florida, US",3
+203,0,3,male,0,0,34,Southampton,"Vancouver, British Columbia, Canada",3
+204,0,3,male,0,0,45,Cherbourg,"Wilkes-Barre, Pennsylvania, US",3
+205,1,3,male,0,0,18,Southampton,"Brooklyn, New York, US",3
+206,0,3,female,0,1,2,Southampton,"Indiana Harbor, Indiana, US",3
+207,0,3,male,1,0,32,Southampton,New York City,3
+208,1,3,male,0,0,26,Cherbourg,"Fredericksburg, Virginia, US",3
+209,1,3,female,0,0,16,Queenstown,New York City,3
+210,1,1,male,0,0,39,Cherbourg,"Glen Ridge, New Jersey, US",1
+211,0,3,male,0,0,24,Southampton,New York City,3
+212,1,2,female,0,0,35,Southampton,"Mamaronek, New York, US",2
+213,0,3,male,0,0,22,Southampton,"Saskatoon, Saskatchewan, Canada",3
+214,0,2,male,0,0,30,Southampton,"San Francisco, California, US",2
+215,0,3,male,1,0,22,Queenstown,"Jersey City, New Jersey, US",3
+216,1,1,female,1,0,31,Cherbourg,"Lexington, Massachusetts, US",1
+217,1,3,female,0,0,27,Southampton,New York City,3
+218,0,2,male,1,0,40,Southampton,"Montreal, Quebec, Canada",2
+219,1,1,female,0,0,36,Cherbourg,"Philadelphia, Pennsylvania, US",1
+220,0,2,male,0,0,30,Southampton,New York City,2
+221,1,3,male,0,0,20,Southampton,"Cleveland, Ohio, US",3
+222,0,2,male,0,0,29,Southampton,"Lake Arthur, New Mexico, US",2
+223,0,3,male,0,0,40,Southampton,"Lead, South Dakota, US",3
+224,0,3,male,0,0,22,Southampton,"Coon Rapids, Iowa, US",3
+225,1,1,male,1,0,35,Southampton,"Stamford, Connecticut, US",1
+226,0,3,male,0,0,22,Southampton,New York City,3
+227,1,2,male,0,0,19,Southampton,"Long Island, New York, US",2
+228,0,3,male,0,0,20,Southampton,New York City,3
+229,0,2,male,0,0,18,Southampton,"Bayonne, New Jersey, US",2
+230,0,3,female,3,1,12,Southampton,"Mystic, Iowa, US",3
+231,1,1,female,1,0,35,Southampton,"New York, New York, US",1
+232,0,3,male,0,0,29,Southampton,"Hartford, Connecticut, US",3
+233,0,2,male,0,0,30,Southampton,"Sault Ste Marie, Michigan, US",2
+234,1,3,female,4,2,5,Southampton,"Worcester, Massachusetts, US",3
+235,0,2,male,0,0,25,Southampton,New York City,2
+236,0,3,female,0,0,21,Southampton,"New London, Connecticut, US",3
+237,0,2,male,1,0,44,Southampton,"Sacramento, California, US",2
+238,1,2,female,0,2,8,Southampton,"Payette, Idaho, US",2
+239,0,2,male,0,0,19,Southampton,"Butte, Montana, US",2
+240,0,2,male,0,0,33,Southampton,"Philadelphia, Pennsylvania, US",2
+241,0,3,female,1,0,19,Cherbourg,New York City,3
+242,1,3,female,1,0,18,Queenstown,"Philadelphia, Pennsylvania, US",3
+243,0,2,male,0,0,29,Southampton,"Detroit, Michigan, US",2
+244,0,3,male,0,0,22,Southampton,"Sudbury, Ontario, Canada",3
+245,0,3,male,0,0,30,Cherbourg,"Ottawa, Ontario, Canada",3
+246,0,1,male,2,0,44,Southampton,"Fond du Lac, Wisconsin, US",1
+247,0,3,female,0,0,25,Southampton,"Saranac Lake, New York, US",3
+248,1,2,female,0,2,24,Southampton,"Detroit, Michigan, US",2
+249,1,1,male,1,1,37,Southampton,"New York, New York, US",1
+250,0,2,male,1,0,54,Southampton,New York City,2
+251,0,3,male,0,0,19,Southampton,New York City,3
+252,0,3,female,1,1,29,Southampton,"Indiana Harbor, Indiana, US",3
+253,0,1,male,0,0,62,Southampton,"New York, New York, US",1
+254,0,3,male,1,0,30,Southampton,"Scranton, Pennsylvania, US",3
+255,0,3,female,0,2,41,Southampton,"Astoria, Oregon, US",3
+256,1,3,female,0,2,27,Cherbourg,"Dowagiac, Michigan, US",3
+257,1,1,female,0,0,37,Cherbourg,"New York, New York, US",1
+258,1,1,female,0,0,30,Southampton,"Vancouver, British Columbia, Canada",1
+259,1,1,female,0,0,38,Cherbourg,"Germantown, Pennsylvania, US",1
+260,1,2,female,0,1,60,Southampton,"Woodford County, Kentucky, US",2
+261,0,3,male,0,0,26,Queenstown,"Hammond, Indiana, US",3
+262,1,3,male,4,2,3,Southampton,"Worcester, Massachusetts, US",3
+263,0,1,male,1,1,52,Southampton,"New York, New York, US",1
+264,0,1,male,0,0,45,Southampton,"New York, New York, US",1
+265,0,3,female,0,0,23,Queenstown,"Boston, Massachusetts, US",3
+266,0,2,male,0,0,36,Southampton,New York City,2
+267,0,3,male,4,1,16,Southampton,"Coal Center, Pennsylvania, US",3
+268,1,3,male,1,0,25,Southampton,"Indianapolis, Indiana, US",3
+269,1,1,female,0,1,59,Southampton,"Greenwich, Connecticut, US",1
+270,1,1,female,0,0,39,Cherbourg,"New York, New York, US",1
+271,0,1,male,0,0,28,Southampton,"Bryn Mawr, Pennsylvania, US",1
+272,1,3,male,0,0,25,Southampton,New York City,3
+273,1,2,female,0,1,41,Southampton,"Bennington, Vermont, US",2
+274,0,1,male,0,1,36,Cherbourg,"Brooklyn, New York, US",1
+275,1,3,female,0,0,29,Queenstown,New York City,3
+276,1,1,female,1,0,62,Cherbourg,"Hudson, New York, US",1
+277,0,3,female,0,0,45,Southampton,"Stratford, Connecticut, US",3
+278,0,2,male,0,0,18,Belfast,New York City,2
+279,0,3,male,4,1,7,Queenstown,"Spokane, Washington, US",3
+280,1,3,female,1,1,39,Southampton,"East Providence, Rhode Island, US",3
+281,0,3,male,0,0,65,Queenstown,"Morris Plains, New Jersey, US",3
+282,0,3,male,0,0,28,Southampton,New York City,3
+283,0,3,male,0,0,16,Southampton,"Gladstone, Michigan, US",3
+284,1,3,male,0,0,18,Southampton,"Oglesby, Illinois, US",3
+285,0,1,male,0,0,57,Southampton,"New York, New York, US",1
+286,0,3,male,0,0,33,Cherbourg,New York City,3
+287,1,3,male,0,0,36,Southampton,"Detroit, Michigan, US",3
+288,0,3,male,0,0,22,Southampton,"Chicago, Illinois, US",3
+289,1,2,male,0,0,41,Southampton,"Tokyo, Japan",2
+290,1,3,female,0,0,22,Queenstown,New York City,3
+291,1,1,female,0,0,26,Southampton,"New York, New York, US",1
+292,1,1,female,1,0,19,Cherbourg,"Dowagiac, Michigan, US",1
+293,0,2,male,0,0,36,Cherbourg,"Montreal, Quebec, Canada",2
+294,0,3,female,0,0,24,Southampton,"Chicago, Illinois, US",3
+295,0,3,male,0,0,24,Southampton,"Coon Rapids, Iowa, US",3
+296,0,1,male,0,0,31,Cherbourg,"Chicago, Illinois, US",1
+297,0,3,male,0,0,35,Cherbourg,"Ottawa, Ontario, Canada",3
+298,0,1,female,1,2,2,Southampton,"Montreal, Quebec, Canada",1
+299,1,1,male,0,0,47,Southampton,"New York, New York, US",1
+300,1,1,female,0,1,50,Cherbourg,"Montreal, Quebec, Canada",1
+301,1,3,female,0,0,20,Queenstown,"Chicago, Illinois, US",3
+302,1,3,male,2,0,24,Queenstown,"Brooklyn, New York, US",3
+303,0,3,male,0,0,19,Southampton,New York City,3
+304,1,2,female,0,0,46,Queenstown,"Harrisburg, Pennsylvania, US",2
+305,0,3,male,0,0,28,Southampton,New York City,3
+307,1,1,female,0,0,42,Cherbourg,"Haverford, Pennsylvania, US",1
+308,1,1,female,1,0,22,Cherbourg,"New York, New York, US",1
+309,0,2,male,1,0,30,Cherbourg,"New York, New York, US",2
+310,1,1,female,0,0,31,Cherbourg,"New York, New York, US",1
+311,1,1,female,0,0,24,Cherbourg,"New York, New York, US",1
+312,1,1,female,2,2,18,Cherbourg,"Cooperstown, New York, US",1
+313,0,2,female,1,1,26,Southampton,"Minneapolis, Minnesota, US",2
+314,0,3,male,0,0,28,Southampton,"Harrisburg, Pennsylvania, US",3
+315,0,2,male,1,1,47,Southampton,"Winnipeg, Manitoba, Canada",2
+316,1,3,female,0,0,26,Southampton,"Joliet, Illinois, US",3
+317,1,2,female,1,0,24,Southampton,"Bronx, New York, US",2
+318,0,2,male,0,0,54,Southampton,"Frankfort, Kentucky, US",2
+319,1,1,female,0,2,31,Southampton,"Youngstown, Ohio, US",1
+320,1,1,female,1,1,39,Cherbourg,"Tuxedo Park, New York, US",1
+321,0,3,male,0,0,22,Southampton,"Saskatoon, Saskatchewan, Canada",3
+322,0,3,male,0,0,27,Southampton,"Chicago, Illinois, US",3
+323,1,2,female,0,0,30,Queenstown,"Vancouver, British Columbia, Canada",2
+324,1,2,female,1,1,28,Southampton,"Roseville, Illinois, US",2
+325,0,3,male,8,2,19,Southampton,"Jacksonville, Florida, US",3
+326,1,1,female,0,0,36,Cherbourg,"New York, New York, US",1
+327,0,3,male,0,0,61,Southampton,"Grand Forks, North Dakota, US",3
+328,1,2,female,0,0,36,Southampton,"Jacksonville, Florida, US",2
+329,1,3,female,1,1,31,Southampton,"Detroit, Michigan, US",3
+330,1,1,female,0,1,17,Cherbourg,"Chicago, Illinois, US",1
+331,1,3,female,2,0,29,Queenstown,"Brooklyn, New York, US",3
+332,0,1,male,0,0,40,Southampton,"Toronto, Ontario, Canada",1
+333,0,1,male,0,1,38,Southampton,"Winnipeg, Manitoba, Canada",1
+334,0,3,male,2,0,15,Southampton,"Fremont, Ohio, US",3
+335,1,1,female,1,0,42,Southampton,"New York, New York, US",1
+336,0,3,male,0,0,30,Southampton,"Coon Rapids, Iowa, US",3
+337,0,1,male,1,0,29,Southampton,"New York, New York, US",1
+338,1,1,female,0,0,41,Cherbourg,"Tuxedo Park, New York, US",1
+339,1,3,male,0,0,45,Southampton,"Fingal, North Dakota, US",3
+340,0,1,male,0,0,45,Southampton,"Trenton, New Jersey, US",1
+341,1,2,male,1,1,2,Southampton,New York City,2
+342,1,1,female,3,2,24,Southampton,"Winnipeg, Manitoba, Canada",1
+343,0,2,male,0,0,27,Southampton,"Ashtabula, Ohio, US",2
+344,0,2,male,0,0,25,Southampton,"Minatitl?, Veracruz, Mexico",2
+345,0,2,male,0,0,38,Southampton,"Rochester, New York, US",2
+346,1,2,female,0,0,18,Southampton,"Montreal, Quebec, Canada",1
+347,1,2,female,0,0,39,Southampton,"Washington, DC US",2
+349,1,3,male,1,1,9,Southampton,"Brooklyn, New York, US",3
+350,0,3,male,0,0,42,Southampton,"Red Lodge, Montana, US",3
+351,0,3,male,0,0,23,Southampton,"Peoria, Illinois, US",3
+352,0,1,male,0,0,43,Southampton,"Newark, New Jersey, US",1
+353,0,3,male,1,1,17,Cherbourg,"Ottawa, Ontario, Canada",3
+354,0,3,male,1,0,25,Southampton,"New Glarus, Wisconsin, US",3
+355,0,3,male,0,0,25,Cherbourg,New York City,3
+356,0,3,male,0,0,28,Southampton,New York City,3
+357,1,1,female,0,1,22,Southampton,"New York, New York, US",1
+358,0,2,female,0,0,38,Southampton,"Bally, Pennsylvania, US",2
+359,1,3,female,0,0,22,Queenstown,New York City,3
+360,1,3,female,0,0,23,Queenstown,New York City,3
+361,0,3,male,1,4,40,Southampton,"Iron Mountain, Michigan, US",3
+362,0,2,male,1,0,29,Cherbourg,"Chicago, Illinois, US",2
+363,0,3,female,0,1,45,Cherbourg,"Ottawa, Ontario, Canada",3
+364,0,3,male,0,0,35,Southampton,New York City,3
+365,0,3,male,1,0,27,Queenstown,"Chicago, Illinois, US",3
+366,0,3,male,0,0,30,Southampton,"Brooklyn, New York, US",3
+367,1,1,female,1,0,60,Cherbourg,"Portland, Oregon, US",1
+368,1,3,female,0,0,35,Cherbourg,"Wilkes-Barre, Pennsylvania, US",3
+369,1,3,female,0,0,26,Queenstown,"East Lynn, Massachusetts, US",3
+370,1,1,female,0,0,24,Cherbourg,"New York, New York, US",1
+371,1,1,male,1,0,25,Cherbourg,"New York, New York, US",1
+372,0,3,male,1,0,18,Southampton,"Montreal, Quebec, Canada",3
+373,0,3,male,0,0,18,Southampton,"Russell, US",3
+374,0,1,male,0,0,22,Cherbourg,"New York, New York, US",1
+375,0,3,female,3,1,3,Southampton,"Chicago, Illinois, US",3
+376,1,1,female,1,0,25,Cherbourg,"New York, New York, US",1
+377,1,3,female,0,0,22,Southampton,New York City,3
+378,0,1,male,0,2,27,Southampton,"Philadelphia, Pennsylvania, US",1
+379,0,3,male,0,0,20,Cherbourg,"Waterbury, Connecticut, US",3
+380,0,3,male,0,0,19,Southampton,"Aberdeen, South Dakota, US",3
+381,1,1,female,0,0,46,Cherbourg,"New York, New York, US",1
+382,1,3,female,0,2,1,Cherbourg,"Waterbury, Connecticut, US",3
+383,0,3,male,0,0,32,Southampton,New York City,3
+384,1,1,female,1,0,35,Southampton,"New York, New York, US",1
+385,0,3,male,0,0,27,Southampton,"Tulsa, Oklahoma, US",3
+386,0,2,male,0,0,21,Southampton,"Eden, Manitoba, Canada",2
+387,0,3,male,5,2,1,Southampton,"Niagara Falls, New York, US",3
+388,1,2,female,0,0,36,Southampton,"San Francisco, US",2
+389,0,3,male,0,0,20,Queenstown,"Lakewood Township, New Jersey, US",3
+390,1,2,female,0,0,17,Cherbourg,"Central City, Iowa, US",2
+391,1,1,male,1,2,36,Southampton,"Bryn Mawr, Pennsylvania, US",1
+392,1,3,male,0,0,21,Southampton,"Swedeburg, Nebraska, US",3
+393,0,3,male,2,0,28,Southampton,New York City,3
+394,1,1,female,1,0,23,Cherbourg,"Lexington, Massachusetts, US",1
+395,1,3,female,0,2,24,Southampton,"San Francisco, US",3
+396,0,3,male,0,0,22,Southampton,"St. Paul, Minnesota, US",3
+397,0,3,female,0,0,31,Southampton,"St. Paul, Minnesota, US",3
+398,0,2,male,0,0,46,Southampton,"Rochester, New York, US",2
+399,0,2,male,0,0,23,Southampton,"Hamilton, Ontario, Canada",2
+400,1,2,female,0,0,26,Southampton,"Columbus, Ohio, US",2
+401,1,3,male,0,0,39,Southampton,"Boston, Massachusetts, US",3
+402,0,3,male,0,0,26,Southampton,"La Porte City, Iowa, US",3
+403,0,3,female,1,0,21,Southampton,New York City,3
+404,0,3,male,1,0,28,Southampton,"Monessen, Pennsylvania, US",3
+405,0,3,female,0,0,20,Southampton,"Chicago, Illinois, US",3
+406,0,2,male,1,0,33,Southampton,"Clear Creek, Colorado, US",2
+407,0,3,male,0,0,51,Southampton,New York City,3
+408,1,2,male,1,1,3,Southampton,"Akron, Ohio, US",2
+409,0,3,male,0,0,21,Southampton,New York City,3
+410,0,3,female,3,1,3,Southampton,"Mystic, Iowa, US",3
+411,0,3,male,0,0,42,Southampton,"Chicago, Illinois, US",3
+412,0,3,male,0,0,27,Queenstown,"Boston, Massachusetts, US",3
+413,1,1,female,1,0,33,Southampton,"Fond du Lac, Wisconsin, US",1
+414,0,2,male,0,0,21,Belfast,New York City,2
+415,1,3,male,0,0,44,Southampton,"Cheyenne, Wyoming, US",3
+416,0,3,female,0,0,31,Southampton,New York City,3
+417,1,2,female,1,1,34,Southampton,"Greenport, New York, US",2
+418,1,2,female,0,2,17,Southampton,"Minneapolis, Minnesota, US",2
+419,0,2,male,0,0,30,Southampton,"La Salle, Illinois, US",2
+420,0,3,female,0,2,10,Southampton,"Detroit, Michigan, US",3
+422,0,3,male,0,0,28,Queenstown,New York City,3
+423,0,3,male,0,0,29,Southampton,"Saskatoon, Saskatchewan, Canada",3
+424,0,3,female,1,1,28,Southampton,"Stanton, Iowa, US",3
+425,0,3,male,1,1,18,Southampton,"Astoria, Oregon, US",3
+426,0,3,male,0,0,54,Southampton,"Quebec City, Quebec, Canada",3
+427,1,2,female,1,0,28,Southampton,"San Francisco, California, US",2
+428,1,2,female,0,0,19,Southampton,"Los Angeles, US",2
+429,0,3,male,0,0,28,Queenstown,New York City,3
+430,1,3,male,0,0,32,Southampton,"San Francisco, US",3
+431,1,1,male,0,0,28,Southampton,"Washington, DC, US",1
+432,1,3,female,1,0,32,Southampton,"Clinton, New York, US",3
+433,1,2,female,1,0,42,Southampton,New York City,2
+434,0,3,male,0,0,17,Southampton,"Sudbury, Ontario, Canada",3
+435,0,1,male,1,0,50,Cherbourg,"Duluth, Minnesota, US",1
+436,1,1,female,1,2,13,Southampton,"Bryn Mawr, Pennsylvania, US",1
+437,0,3,female,2,2,20,Southampton,"Essex County, New Jersey, US",3
+438,1,2,female,2,3,23,Southampton,"Akron, Ohio, US",2
+439,0,1,male,1,4,64,Southampton,"Winnipeg, Manitoba, Canada",1
+440,0,2,male,0,0,31,Southampton,"Arlington, Virginia, US",2
+441,1,2,female,1,1,48,Southampton,"Winnipeg, Manitoba, Canada",2
+442,0,3,male,0,0,19,Southampton,"Detroit, Michigan, US",3
+443,0,3,male,1,0,25,Southampton,"Chicago, Illinois, US",3
+444,1,2,female,0,0,28,Southampton,New York City,2
+445,1,3,male,0,0,29,Southampton,New York City,3
+446,1,1,male,0,2,4,Southampton,"San Francisco, California, US",1
+447,1,2,female,0,1,13,Southampton,"Bennington, Vermont, US",2
+448,1,1,male,0,0,34,Southampton,"New York, New York, US",1
+449,1,3,female,2,1,5,Cherbourg,"Brooklyn, New York, US",3
+450,1,1,male,0,0,52,Southampton,"Toronto, Ontario, Canada",1
+451,0,2,male,1,2,36,Southampton,"Gainesville, Florida, US",2
+452,0,3,male,1,0,28,Southampton,"Belmar, New Jersey, US",3
+453,0,1,male,0,0,30,Southampton,"New York, New York, US",1
+454,1,1,male,1,0,47,Cherbourg,"New York, New York, US",1
+455,0,3,male,0,0,24,Southampton,New York City,3
+456,1,3,male,0,0,29,Cherbourg,"Galesburg, Illinois, US",3
+457,0,1,male,0,0,65,Cherbourg,"East Bridgewater, Massachusetts, US",1
+458,1,1,female,1,0,31,Southampton,"Pittsburgh, Pennsylvania, US",1
+459,1,2,female,0,0,48,Southampton,"Indianapolis, Indiana, US",2
+460,0,3,male,0,0,16,Queenstown,New York City,3
+461,1,1,male,0,0,47,Southampton,"New York, New York, US",1
+462,0,3,male,0,0,34,Southampton,New York City,3
+463,0,1,male,0,0,47,Southampton,"Mexico City, Mexico",1
+464,0,2,male,0,0,48,Southampton,"Oregon, Wisconsin, US",2
+465,0,3,male,0,0,34,Southampton,New York City,3
+466,0,3,male,0,0,37,Southampton,New York City,3
+467,0,2,male,0,0,21,Belfast,New York City,2
+468,0,1,male,0,0,56,Southampton,"New York, New York, US",1
+469,0,3,male,0,0,22,Queenstown,New York City,3
+470,1,3,female,2,1,0.75,Cherbourg,"Brooklyn, New York, US",3
+471,0,3,male,0,0,39,Southampton,"Rahway, New Jersey, US",3
+472,0,3,male,0,0,38,Southampton,"Chicago, Illinois, US",3
+473,1,2,female,1,2,33,Southampton,"Gainesville, Florida, US",2
+474,1,2,female,0,0,23,Southampton,New York City,2
+475,0,3,female,0,0,22,Southampton,New York City,3
+476,0,1,male,0,0,40,Southampton,"Stoughton, Massachusetts",1
+477,0,2,male,1,0,33,Southampton,"Elizabeth, New Jersey, US",2
+478,0,3,male,1,0,29,Southampton,"Qu'Appelle Valley, Saskatchewan, Canada",3
+479,0,3,male,0,0,22,Southampton,"Palmer, Massachusetts, US",3
+480,1,3,female,0,1,2,Southampton,"Monessen, Pennsylvania, US",3
+481,0,3,male,5,2,10,Southampton,"Niagara Falls, New York, US",3
+482,0,2,male,0,0,37,Belfast,New York City,2
+483,0,3,male,0,0,50,Southampton,"Cleveland, Ohio, US",3
+484,1,3,female,0,0,63,Southampton,"Hibbing, Minnesota, US",3
+485,1,1,male,1,0,25,Cherbourg,"Dowagiac, Michigan, US",1
+486,0,3,female,3,1,8,Southampton,"Mystic, Iowa, US",3
+487,1,1,female,1,0,31,Southampton,"Stamford, Connecticut, US",1
+488,0,1,male,0,0,58,Cherbourg,"Buffalo, New York, US",1
+489,0,3,male,0,0,30,Southampton,"Canastota, New York, US",3
+490,1,3,male,1,1,3,Southampton,"Brooklyn, New York, US",3
+491,0,3,male,1,0,19,Southampton,"Belmar, New Jersey, US",3
+492,0,3,male,0,0,21,Southampton,New York City,3
+493,0,1,male,0,0,55,Southampton,"Montreal, Quebec, Canada",1
+494,0,1,male,0,0,71,Cherbourg,"New York, New York, US",1
+495,0,3,male,0,0,21,Southampton,"Cleveland, Ohio, US",3
+496,0,3,male,0,0,26,Cherbourg,"Youngstown, Ohio, US",3
+497,1,1,female,1,0,54,Cherbourg,"Brookline, Massachusetts, US",1
+498,0,3,male,0,0,55,Southampton,"Troy, New York, US",3
+499,0,1,female,1,2,25,Southampton,"Montreal, Quebec, Canada",1
+500,0,3,male,0,0,24,Southampton,New York City,3
+501,0,3,male,0,0,17,Southampton,"Sault Ste. Marie, Michigan, US",3
+502,0,3,female,0,0,22,Queenstown,"Philadelphia, Pennsylvania, US",3
+503,0,3,female,0,0,21,Queenstown,New York City,3
+504,0,3,female,0,0,37,Southampton,New York City,3
+505,1,1,female,0,0,20,Southampton,"Vancouver, British Columbia, Canada",1
+506,0,1,male,1,0,24,Cherbourg,"New York, New York, US",1
+507,1,2,female,0,2,33,Southampton,"Detroit, Michigan, US",2
+508,1,1,male,0,0,37,Southampton,"Los Angeles, California, US",1
+509,0,3,male,0,0,28,Southampton,New York City,3
+510,1,3,male,0,0,26,Southampton,New York City,3
+511,1,3,male,0,0,29,Queenstown,New York City,3
+512,0,3,male,0,0,66,Southampton,"San Francisco, US",3
+513,1,1,male,0,0,35,Southampton,"Philadelphia, Pennsylvania, US",1
+514,1,1,female,1,0,54,Cherbourg,"New York, New York, US",1
+515,0,3,male,0,0,24,Southampton,"Chicago, Illinois, US",3
+516,0,1,male,0,0,48,Southampton,"East Orange, New Jersey, US",1
+517,1,2,female,0,0,34,Southampton,"Chicago, Illinois, US",2
+518,0,3,male,0,0,29,Queenstown,"Bronx, New York, US",3
+519,1,2,female,1,0,36,Southampton,New York City,2
+520,0,3,male,0,0,32,Southampton,"Harrisburg, Pennsylvania, US",3
+521,1,1,female,0,0,33,Southampton,"Montreal, Quebec, Canada",1
+522,0,3,male,0,0,21,Southampton,"St. Joseph, Minnesota, US",3
+523,0,3,male,0,0,30,Cherbourg,"Waterbury, Connecticut, US",3
+524,1,1,female,0,1,44,Cherbourg,"Chicago, Illinois, US",1
+525,0,3,male,0,0,18,Cherbourg,New York City,3
+526,0,3,male,0,0,25,Queenstown,New York City,3
+527,1,2,female,0,0,50,Southampton,"Marietta, Ohio, US",2
+528,0,1,male,0,0,57,Southampton,"New York, New York, US",1
+529,0,3,male,0,0,39,Southampton,"Aberdeen, Washington, US",3
+530,0,2,male,2,1,23,Southampton,"Akron, Ohio, US",2
+531,1,2,female,1,1,2,Southampton,"Detroit, Michigan, US",2
+532,0,3,male,0,0,17,Cherbourg,New York City,3
+533,0,3,male,1,1,15,Cherbourg,"Ottawa, Ontario, Canada",3
+534,1,3,female,0,2,24,Cherbourg,"Detroit, Michigan, US",3
+535,0,3,female,0,0,30,Southampton,"Chicago, Illinois, US",3
+536,1,2,female,0,2,7,Southampton,"Winnipeg, Manitoba, Canada",2
+537,0,1,male,0,0,46,Southampton,"Washington, DC, US",1
+538,1,1,female,0,0,27,Cherbourg,"Minneapolis, Minnesota, US",1
+539,0,3,male,0,0,69,Southampton,"Groesbeck, Texas, US",3
+540,1,1,female,0,2,22,Cherbourg,"New York, New York, US",1
+541,1,1,female,0,2,39,Southampton,"Milwaukee, Wisconsin, US",1
+542,0,3,female,4,2,9,Southampton,"Winnipeg, Manitoba, Canada",3
+543,0,3,female,4,2,11,Southampton,"Winnipeg, Manitoba, Canada",3
+544,1,2,male,1,0,32,Southampton,New York City,2
+545,0,1,male,1,0,50,Cherbourg,"Minneapolis, Minnesota, US",1
+546,0,1,male,0,0,64,Southampton,"New York, New York, US",1
+547,1,2,female,1,0,19,Southampton,New York City,2
+548,1,2,male,0,0,26,Cherbourg,"Havana, Cuba",2
+549,0,3,male,1,1,33,Southampton,"Detroit, Michigan, US",3
+550,1,2,male,1,1,8,Southampton,"Houghton, Michigan, US",2
+551,1,1,male,0,2,17,Cherbourg,"Haverford, Pennsylvania, US",1
+552,0,2,male,0,0,27,Southampton,New York City,2
+553,0,3,male,0,0,21,Queenstown,New York City,3
+554,1,3,male,0,0,22,Cherbourg,"Dayton, Ohio, US",3
+555,1,3,female,0,0,22,Southampton,"Chicago, Illinois, US",3
+556,0,1,male,0,0,62,Southampton,"Halifax, Nova Scotia, Canada",1
+557,1,1,female,1,0,48,Cherbourg,"New York, New York, US",1
+559,1,1,female,1,1,39,Southampton,"New York, New York, US",1
+560,1,3,female,1,0,36,Southampton,"Tampico, Montana, US",3
+561,0,3,male,0,0,30,Queenstown,"Gleichen, Alberta, Canada",3
+562,0,3,male,0,0,40,Southampton,"Harrisburg, Pennsylvania, US",3
+563,0,2,male,0,0,28,Southampton,"Houghton, Michigan, US",2
+564,0,3,male,0,0,39,Southampton,New York City,3
+565,0,3,female,0,0,63,Southampton,New York City,3
+566,0,3,male,2,0,24,Southampton,"Pontiac, Michigan, US",3
+567,0,3,male,0,0,19,Southampton,"Chicago, Illinois, US",3
+568,0,3,female,0,4,29,Southampton,"Chicago, Illinois, US",3
+569,0,3,male,0,0,28,Cherbourg,"Youngstown, Ohio, US",3
+570,1,3,male,0,0,32,Southampton,"Huntley, Illinois, US",3
+571,1,2,male,0,0,62,Southampton,New York City,2
+572,1,1,female,2,0,53,Southampton,"New York, New York, US",1
+573,1,1,male,0,0,36,Southampton,"Brooklyn, New York, US",1
+574,1,3,female,0,0,22,Queenstown,New York City,3
+575,0,3,male,0,0,16,Southampton,"Detroit, Michigan, US",3
+576,0,3,male,0,0,19,Southampton,"Kitchener, Ontario, Canada",3
+577,1,2,female,0,0,34,Southampton,"Brooklyn, New York, US",2
+578,1,1,female,1,0,39,Cherbourg,"Duluth, Minnesota, US",1
+579,0,3,female,1,0,18,Cherbourg,"Ottawa, Ontario, Canada",3
+580,1,3,male,0,0,32,Southampton,"Monessen, Pennsylvania, US",3
+581,1,2,female,1,1,25,Southampton,"Montreal, Quebec, Canada",2
+582,1,1,female,1,1,39,Cherbourg,"Haverford, Pennsylvania, US",1
+583,0,2,male,0,0,55,Southampton,"Rochester, New York, US",2
+584,0,1,male,0,0,36,Southampton,"Winnipeg, Manitoba, Canada",1
+585,0,3,male,0,0,16,Cherbourg,New York City,3
+586,1,1,female,0,2,18,Southampton,"New York, New York, US",1
+587,0,2,male,0,0,47,Southampton,New York City,2
+588,1,1,male,1,1,60,Cherbourg,"New York, New York, US",1
+589,0,3,male,0,0,22,Southampton,"Chicago, Illinois, US",3
+590,0,3,male,0,0,22,Southampton,New York City,3
+591,0,3,male,0,0,35,Southampton,"Sudbury, Ontario, Canada",3
+592,1,1,female,1,0,52,Cherbourg,"Haverford, Pennsylvania, US",1
+593,0,3,male,0,0,47,Southampton,"Gurnee, Illinois, US",3
+594,0,3,female,0,2,40,Queenstown,"Chicago, Illinois, US",3
+595,0,2,male,1,0,36,Southampton,"Spokane, Washington, US",2
+596,0,3,male,1,1,36,Southampton,"Detroit, Michigan, US",3
+597,1,2,female,0,0,31,Southampton,"Chicago, Illinois, US",2
+598,0,3,male,0,0,49,Southampton,New York City,3
+599,0,3,male,0,0,18,Cherbourg,"Ottawa, Ontario, Canada",3
+600,1,1,male,1,0,49,Cherbourg,"New York, New York, US",1
+601,1,2,female,2,1,24,Southampton,"Montreal, Quebec, Canada",2
+602,0,3,male,0,0,42,Southampton,New York City,3
+603,0,1,male,0,0,37,Southampton,"Washington, DC, US",1
+604,0,3,male,0,0,44,Southampton,New York City,3
+605,1,1,male,0,0,40,Southampton,"Indianapolis, Indiana, US",1
+606,0,3,male,1,0,36,Southampton,"Hartford, Connecticut, US",3
+607,0,3,male,0,0,30,Southampton,"Youngstown, Ohio, US",3
+608,1,1,male,0,0,27,Southampton,"Philadelphia, Pennsylvania, US",1
+609,1,2,female,1,2,22,Cherbourg,"Cap-Ha?ien, Haiti",2
+610,1,1,female,0,0,40,Southampton,"Greenwich, Connecticut, US",1
+611,0,3,female,1,5,39,Southampton,"Winnipeg, Manitoba, Canada",3
+612,0,3,male,0,0,21,Southampton,New York City,3
+613,1,3,female,1,0,25,Queenstown,"Philadelphia, Pennsylvania, US",3
+614,0,3,male,0,0,22,Queenstown,New York City,3
+615,0,3,male,0,0,35,Southampton,New York City,3
+616,1,2,female,1,2,24,Southampton,"Bernardsville, New Jersey, US",2
+617,0,3,male,1,1,34,Southampton,"Stanton, Iowa, US",3
+618,0,3,female,1,0,26,Southampton,"Scranton, Pennsylvania, US",3
+619,1,2,female,2,1,4,Southampton,"Benton Harbor, Michigan, US",2
+620,0,2,male,0,0,26,Southampton,"Elizabeth, New Jersey, US",2
+621,0,3,male,1,0,27,Cherbourg,"Wilkes-Barre, Pennsylvania, US",3
+622,1,1,male,1,0,42,Southampton,"Boston, Massachusetts, US",1
+623,1,3,male,1,1,20,Cherbourg,"Waterbury, Connecticut, US",3
+624,0,3,male,0,0,21,Southampton,"Racine, Wisconsin, US",3
+625,0,3,male,0,0,20,Southampton,New York City,3
+626,0,1,male,0,0,61,Southampton,"Haddonfield, New Jersey, US",1
+627,0,2,male,0,0,52,Queenstown,"Tuxford, Saskatchewan, Canada",2
+628,1,1,female,0,0,21,Cherbourg,"Hudson, New York, US",1
+629,0,3,male,0,0,26,Southampton,"Chicago, Illinois, US",3
+630,0,3,male,0,0,17,Queenstown,New York City,3
+631,1,1,male,0,0,47,Southampton,"New York, New York, US",1
+632,0,3,male,0,0,51,Southampton,"Spokane, Washington, US",3
+633,1,1,male,0,0,32,Southampton,"New York, New York, US",1
+634,0,1,male,0,0,29,Belfast,"New York, New York, US",1
+635,0,3,female,3,2,9,Southampton,"Iron Mountain, Michigan, US",3
+636,1,2,female,0,0,28,Southampton,"Tottenville, New York, US",2
+637,0,3,male,0,0,32,Southampton,New York City,3
+638,0,2,male,1,1,31,Southampton,"Payette, Idaho, US",2
+639,0,3,female,0,5,41,Southampton,"Coal Center, Pennsylvania, US",3
+640,0,3,male,1,0,36,Southampton,"Clinton, New York, US",3
+641,0,3,male,0,0,20,Southampton,"Portland, Oregon, US",3
+642,1,1,female,0,0,24,Cherbourg,"New York, New York, US",1
+643,0,3,female,3,2,2,Southampton,"Iron Mountain, Michigan, US",3
+644,1,3,male,0,0,32,Southampton,New York City,3
+645,1,3,female,2,1,4,Cherbourg,"Brooklyn, New York, US",3
+646,1,1,male,1,0,48,Cherbourg,"New York, New York, US",1
+647,0,3,male,0,0,19,Southampton,"Great Falls, Montana, US",3
+648,1,1,male,0,0,56,Southampton,"New York, New York, US",1
+649,0,3,male,0,0,18,Southampton,"Schenectady, New York, US",3
+650,1,3,female,0,0,24,Southampton,"New Haven, Connecticut, US",3
+651,0,3,male,0,0,23,Southampton,"Chicago, Illinois, US",3
+652,1,2,female,0,1,19,Southampton,New York City,2
+653,0,3,male,0,0,21,Southampton,"Story City, Iowa, US",3
+654,1,3,female,0,0,16,Queenstown,New York City,3
+655,0,3,female,0,0,18,Queenstown,"Charlestown, US",3
+656,0,2,male,2,0,24,Southampton,"Eden, Manitoba, Canada",2
+657,0,3,male,0,0,27,Southampton,"Chicago, Illinois, US",3
+658,0,3,female,1,1,32,Queenstown,"Chicago, Illinois, US",3
+659,0,2,male,0,0,23,Southampton,"Detroit, Michigan, US",2
+660,0,1,male,0,2,58,Cherbourg,"Lexington, Massachusetts, US",1
+661,1,1,male,2,0,49,Southampton,"New York, New York, US",1
+662,0,3,male,0,0,40,Cherbourg,New York City,3
+663,0,1,male,0,0,37,Southampton,"Vancouver, British Columbia, Canada",1
+664,0,3,male,0,0,36,Southampton,"Chicago, Illinois, US",3
+665,1,3,male,1,0,20,Southampton,"Monessen, Pennsylvania, US",3
+666,0,2,male,2,0,30,Southampton,"The Pas, Manitoba, Canada",2
+667,0,2,male,0,0,25,Southampton,New York City,2
+668,0,3,male,0,0,49,Southampton,New York City,3
+669,0,3,male,0,0,43,Southampton,New York City,3
+670,1,1,female,1,0,48,Southampton,"East Orange, New Jersey, US",1
+671,1,2,female,1,1,40,Southampton,"Seattle, Washington, US",2
+672,0,1,male,1,0,31,Southampton,"Montreal, Quebec, Canada",1
+673,0,2,male,0,0,71,Southampton,"Toledo, Ohio, US",2
+674,1,2,male,0,0,32,Southampton,New York City,2
+675,0,2,male,0,0,15,Belfast,New York City,2
+676,0,3,male,0,0,18,Southampton,"Joliet, Illinois, US",3
+677,0,3,male,0,0,33,Southampton,"Halley, Michigan, US",3
+678,1,3,female,0,0,18,Southampton,"Ashtabula, Ohio, US",3
+679,0,3,female,1,6,43,Southampton,"Niagara Falls, New York, US",3
+680,1,1,male,0,1,36,Cherbourg,"Germantown, Pennsylvania, US",1
+681,0,3,female,0,0,26,Queenstown,New York City,3
+682,1,1,male,0,0,27,Cherbourg,"New York, New York, US",1
+683,0,3,male,0,0,20,Southampton,"Carneron, US",3
+684,0,3,male,5,2,14,Southampton,"Niagara Falls, New York, US",3
+685,0,2,male,1,1,60,Southampton,"Seattle, Washington, US",2
+686,0,2,male,1,2,25,Cherbourg,"Cap-Ha?ien, Haiti",2
+687,0,3,male,4,1,15,Southampton,"Coal Center, Pennsylvania, US",3
+688,0,3,male,0,0,19,Southampton,New York City,3
+689,0,3,male,0,0,18,Southampton,New York City,3
+690,1,1,female,0,1,16,Southampton,"St Louis, Missouri, US",1
+691,1,1,male,1,0,31,Southampton,"Calgary, Alberta, Canada",1
+692,1,3,female,0,1,4,Southampton,"Galesburg, Illinois, US",3
+693,1,3,male,0,0,37,Southampton,New York City,3
+694,0,3,male,0,0,25,Cherbourg,"Ottawa, Ontario, Canada",3
+695,0,1,male,0,0,59,Southampton,"New York, New York, US",1
+696,0,2,male,0,0,52,Southampton,"Bronx, New York, US",2
+697,0,3,male,0,0,44,Queenstown,"New Haven, Connecticut, US",3
+698,1,3,female,0,0,19,Queenstown,New York City,3
+699,0,1,male,1,1,49,Cherbourg,"Haverford, Pennsylvania, US",1
+700,0,3,male,0,0,42,Southampton,"Milwaukee, Wisconsin, US",3
+701,1,1,female,1,0,18,Cherbourg,"New York, New York, US",1
+702,1,1,male,0,0,35,Southampton,"St Louis, Missouri, US",1
+703,0,3,female,0,1,12,Cherbourg,"Ottawa, Ontario, Canada",3
+704,0,3,male,0,0,29,Queenstown,New York City,3
+705,0,3,male,1,0,26,Southampton,"Racine, Wisconsin, US",3
+706,0,2,male,0,0,38,Southampton,"Los Angeles, US",2
+707,1,2,female,0,0,45,Southampton,New York City,2
+708,1,1,male,0,0,42,Southampton,"New York, New York, US",1
+709,1,1,female,0,0,22,Southampton,"Montreal, Quebec, Canada",1
+710,1,3,male,1,1,4,Cherbourg,"Houtzdale, Pennsylvania, US",3
+711,1,1,female,0,0,24,Cherbourg,"Montreal, Quebec, Canada",1
+712,0,1,male,0,0,45,Southampton,"Portland, Oregon, US",1
+713,1,1,male,1,0,48,Southampton,"East Orange, New Jersey, US",1
+714,0,3,male,0,0,29,Southampton,"Stamford, Connecticut, US",3
+715,0,2,male,0,0,52,Southampton,"Bronx, New York, US",2
+716,0,3,male,0,0,19,Southampton,"Minneapolis, Minnesota, US",3
+717,1,1,female,0,0,39,Cherbourg,"New York, New York, US",1
+718,1,2,female,0,0,27,Southampton,"Auburndale, Florida, US",2
+719,0,3,male,0,0,19,Queenstown,New York City,3
+720,0,3,male,0,0,33,Southampton,"Minneapolis, Minnesota, US",3
+721,1,2,female,0,1,6,Southampton,"Chicago, Illinois, US",2
+722,0,3,male,1,0,17,Southampton,"Portland, Oregon, US",3
+723,0,2,male,0,0,34,Southampton,"Vancouver, British Columbia, Canada",2
+724,0,2,male,0,0,50,Southampton,"Boston, Massachusetts, US",2
+725,1,1,male,1,0,27,Southampton,"New York, New York, US",1
+726,0,3,male,0,0,20,Southampton,"Chicago, Illinois, US",3
+727,1,2,female,3,0,30,Southampton,"Elizabeth, New Jersey, US",2
+728,1,3,female,0,0,28,Queenstown,New York City,3
+729,0,2,male,1,0,25,Southampton,"Rockford, Illinois, US",2
+730,0,3,female,1,0,25,Southampton,New York City,3
+731,1,1,female,0,0,29,Southampton,"St Louis, Missouri, US",1
+732,0,3,male,0,0,11,Cherbourg,"Fredericksburg, Virginia, US",3
+733,0,2,male,0,0,39,Belfast,New York City,2
+734,0,2,male,0,0,23,Southampton,"Calumet, Michigan, US",2
+735,0,2,male,0,0,23,Southampton,New York City,2
+736,0,3,male,0,0,28,Southampton,New York City,3
+737,0,3,female,1,3,48,Southampton,"Essex County, New Jersey, US",3
+738,1,1,male,0,0,35,Cherbourg,"Germantown, Pennsylvania, US",1
+739,0,3,male,0,0,20,Southampton,"Chicago, Illinois, US",3
+740,0,3,male,0,0,32,Southampton,"Chicago, Illinois, US",3
+741,1,1,male,0,0,45,Southampton,"New York, New York, US",1
+742,0,1,male,1,0,36,Southampton,"New York, New York, US",1
+743,1,1,female,2,2,21,Cherbourg,"Cooperstown, New York, US",1
+744,0,3,male,1,0,27,Southampton,"Philadelphia, Pennsylvania, US",3
+745,1,3,male,0,0,31,Southampton,"Duluth, Minnesota, US",3
+746,0,1,male,1,1,70,Southampton,"Milwaukee, Wisconsin, US",1
+747,0,3,male,1,1,16,Southampton,"East Providence, Rhode Island, US",3
+748,1,2,female,0,0,30,Southampton,"Brighton, Boston, Massachusetts, US",2
+749,0,1,male,1,0,18,Southampton,"New York, New York, US",1
+750,0,3,male,0,0,31,Queenstown,"Brooklyn, New York, US",3
+751,1,2,female,1,1,4,Southampton,"Akron, Ohio, US",2
+752,1,3,male,0,1,7,Southampton,"Chicago, Illinois, US",3
+753,0,3,male,0,0,35,Southampton,New York City,3
+754,0,3,male,0,0,23,Southampton,"Chicago, Illinois, US",3
+755,1,2,female,1,2,48,Southampton,"Bernardsville, New Jersey, US",2
+756,1,2,male,1,1,1,Southampton,"Detroit, Michigan, US",2
+757,0,3,male,0,0,24,Southampton,"Tower, Minnesota, US",3
+758,0,2,male,0,0,18,Southampton,"Akron, Ohio, US",2
+759,0,3,male,0,0,34,Southampton,"Detroit, Michigan, US",3
+760,1,1,female,0,0,34,Southampton,"Vancouver, British Columbia, Canada",1
+761,0,3,male,0,0,21,Southampton,"Kitchener, Ontario, Canada",3
+762,0,3,male,0,0,41,Southampton,"Sudbury, Ontario, Canada",3
+763,1,3,male,0,0,27,Cherbourg,"Wilkes-Barre, Pennsylvania, US",3
+764,1,1,female,1,2,36,Southampton,"Bryn Mawr, Pennsylvania, US",1
+765,0,3,male,0,0,16,Southampton,"Jerome Junction, Arizona, US",3
+766,1,1,female,1,0,51,Cherbourg,"Hudson, New York, US",1
+767,0,1,male,0,0,45,Cherbourg,"Philadelphia, Pennsylvania, US",1
+768,0,3,female,0,0,32,Queenstown,"Chicago, Illinois, US",3
+769,0,3,male,1,0,27,Queenstown,"Brooklyn, New York, US",3
+770,0,3,male,0,0,32,Southampton,"Portland, North Dakota, US",3
+771,0,3,male,0,0,24,Southampton,"Detroit, Michigan, US",3
+772,0,3,male,0,0,48,Southampton,"Portland, Oregon, US",3
+773,0,2,female,0,0,57,Southampton,New York City,2
+774,0,3,male,0,0,29,Cherbourg,New York City,3
+775,1,2,female,1,3,54,Southampton,"Akron, Ohio, US",2
+776,0,3,male,0,0,18,Southampton,"Chicago, Illinois, US",3
+777,0,3,male,0,0,20,Queenstown,New York City,3
+778,1,3,female,0,0,6,Southampton,New York City,3
+779,0,3,male,0,0,22,Queenstown,New York City,3
+780,1,1,female,0,1,43,Southampton,"St Louis, Missouri, US",1
+781,1,3,female,0,0,15,Cherbourg,"Owen Sound, Ontario, Canada",3
+782,1,1,female,1,0,17,Southampton,"Calgary, Alberta, Canada",1
+783,0,1,male,0,0,29,Southampton,"Springfield, Massachusetts, US",1
+784,0,3,male,1,2,35,Southampton,"New London, Connecticut, US",3
+785,0,3,male,0,0,25,Southampton,New York City,3
+786,0,3,male,0,0,25,Southampton,"Montreal, Quebec, Canada",3
+787,1,3,female,0,0,18,Southampton,"Olympia, Washington, US",3
+788,0,3,male,4,1,8,Queenstown,"Spokane, Washington, US",3
+789,1,3,male,1,2,1,Southampton,"Wichita, Kansas, US",3
+790,0,1,male,0,0,46,Cherbourg,"New York, New York, US",1
+791,0,3,male,0,0,23,Queenstown,"Auburndale, Florida, US",3
+792,0,2,male,0,0,18,Southampton,"Montreal, Quebec, Canada",2
+793,0,3,female,8,2,20,Southampton,"Jacksonville, Florida, US",3
+794,0,1,male,0,0,42,Cherbourg,"New York, New York, US",1
+795,0,3,male,0,0,25,Southampton,"Chicago, Illinois, US",3
+796,0,2,male,0,0,39,Southampton,"Middleburg Heights, Ohio, US",2
+797,1,1,female,0,0,49,Southampton,"New York, New York, US",1
+798,1,3,female,0,0,31,Southampton,"Steelton, Pennsylvania, US",3
+799,0,3,male,0,0,33,Cherbourg,New York City,3
+800,0,3,female,1,1,30,Southampton,"Detroit, Michigan, US",3
+801,0,2,male,0,0,34,Southampton,New York City,2
+802,1,2,female,1,1,31,Southampton,"Payette, Idaho, US",2
+803,1,1,male,1,2,11,Southampton,"Bryn Mawr, Pennsylvania, US",1
+804,1,3,male,0,1,0.42,Cherbourg,"Wilkes Barre, Pennsylvania, US",3
+805,1,3,male,0,0,27,Southampton,"St. Paul, Minnesota, US",3
+806,0,3,male,0,0,31,Southampton,"Duluth, Minnesota, US",3
+807,0,1,male,0,0,39,Belfast,"New York, New York, US",1
+808,0,3,female,0,0,18,Southampton,"Iron Mountain, Michigan, US",3
+809,0,2,male,0,0,31,Southampton,New York City,2
+810,1,1,female,1,0,32,Southampton,"New York, New York, US",1
+811,0,3,male,0,0,23,Southampton,"Albion, Michigan, US",3
+812,0,3,male,0,0,39,Southampton,"Pontiac, Michigan, US",3
+813,0,2,male,0,0,35,Southampton,"Nashua, New Hampshire, US",2
+814,0,3,female,4,2,6,Southampton,"Winnipeg, Manitoba, Canada",3
+815,0,3,male,0,0,22,Southampton,"Des Moines, Iowa, US",3
+816,0,1,male,0,0,39,Southampton,"New York, New York, US",1
+817,0,3,female,0,0,23,Southampton,New York City,3
+818,0,2,male,1,1,31,Cherbourg,"Montreal, Quebec, Canada",2
+819,0,3,male,0,0,43,Southampton,New York City,3
+820,0,3,male,3,2,11,Southampton,"Iron Mountain, Michigan, US",3
+821,1,1,female,1,1,52,Southampton,"Montreal, Quebec, Canada",1
+822,1,3,male,0,0,29,Southampton,"Chicago, Illinois, US",3
+823,0,1,male,0,0,38,Southampton,"New York, New York, US",1
+824,1,3,female,0,1,29,Southampton,"Chicago, Illinois, US",3
+825,0,3,male,4,1,2,Southampton,"Coal Center, Pennsylvania, US",3
+826,0,3,male,0,0,42,Queenstown,"Pittsburgh, Pennsylvania, US",3
+827,0,3,male,0,0,23,Southampton,New York City,3
+828,1,2,male,0,2,1,Cherbourg,"Montreal, Quebec, Canada",2
+829,1,3,male,0,0,19,Queenstown,"Guttenberg, New Jersey, US",3
+830,1,1,female,0,0,62,Southampton,"New York, New York, US",1
+831,1,3,female,1,0,15,Cherbourg,"Wilkes-Barre, Pennsylvania, US",3
+832,1,2,male,1,1,0.75,Southampton,"Akron, Ohio, US",2
+833,0,3,male,0,0,30,Cherbourg,New York City,3
+834,0,3,male,0,0,23,Southampton,"Bloomington, Indiana, US",3
+835,0,3,male,0,0,15,Southampton,New York City,3
+836,1,1,female,1,1,39,Cherbourg,"Lakewood, New Jersey, US",1
+837,0,3,male,0,0,21,Southampton,"Aurora, Illinois, US",3
+838,0,3,male,0,0,20,Southampton,New York City,3
+839,1,3,male,0,0,32,Southampton,New York City,3
+840,1,1,male,0,0,28,Cherbourg,"New York, New York, US",1
+841,0,3,male,0,0,19,Southampton,"Astoria, Oregon, US",3
+842,0,2,male,0,0,16,Southampton,New York City,2
+843,1,1,female,0,0,30,Southampton,"Bryn Mawr, Pennsylvania, US",1
+844,0,3,male,0,0,30,Cherbourg,"Stamford, Connecticut US",3
+845,0,3,male,0,0,17,Southampton,"Hammond, Indiana, US",3
+846,0,3,male,0,0,40,Southampton,"Cincinnati, Ohio, US",3
+847,0,3,male,8,2,18,Southampton,"Jacksonville, Florida, US",3
+848,0,3,male,0,0,35,Southampton,"Chicago, Illinois, US",3
+849,0,2,male,0,1,39,Southampton,"Chicago, Illinois, US",2
+850,1,1,female,1,0,40,Cherbourg,"New York, New York, US",1
+851,0,3,male,4,2,4,Southampton,"Winnipeg, Manitoba, Canada",3
+852,0,3,male,0,0,74,Southampton,"Effington Rut, South Dakota, US",3
+853,0,3,female,1,1,7,Cherbourg,"Kent, British Columbia, Canada",3
+854,1,1,female,0,1,16,Cherbourg,"Hanover, New Hampshire, US",1
+855,0,2,female,1,0,45,Southampton,New York City,2
+856,1,3,female,0,1,18,Southampton,"Norfolk, Virginia, US",3
+857,1,1,female,1,1,45,Southampton,"Youngstown, Ohio, US",1
+858,1,1,male,0,0,51,Southampton,"Lima, Peru",1
+859,1,3,female,0,3,24,Cherbourg,"Brooklyn, New York, US",3
+860,0,3,male,0,0,30,Cherbourg,New York City,3
+861,0,3,male,2,0,41,Southampton,"Racine, Wisconsin, US",3
+862,0,2,male,1,0,20,Southampton,"Camden, New Jersey, US",2
+863,1,1,female,0,0,46,Southampton,"New York, New York, US",1
+864,0,3,female,8,2,14,Southampton,"Jacksonville, Florida, US",3
+865,0,2,male,0,0,24,Southampton,New York City,2
+866,1,2,female,0,0,42,Southampton,New York City,2
+867,1,2,female,1,0,27,Cherbourg,"Havana, Cuba",2
+868,0,1,male,0,0,31,Southampton,"Trenton, New Jersey, US",1
+869,0,3,male,0,0,23,Southampton,"Detroit, Michigan, US",3
+870,1,3,male,1,1,4,Southampton,"St. Charles, Illinois, US",3
+871,0,3,male,0,0,26,Southampton,"Harrisburg, Pennsylvania, US",3
+872,1,1,female,1,1,46,Southampton,"New York, New York, US",1
+873,0,1,male,0,0,33,Southampton,"New York, New York, US",1
+874,0,3,male,0,0,46,Southampton,"Detroit, Michigan, US",3
+875,1,2,female,1,0,28,Cherbourg,"New York, New York, US",2
+876,1,3,female,0,0,15,Cherbourg,"Brooklyn, New York, US",3
+877,0,3,male,0,0,19,Southampton,"Waukegan, Illinois, US",3
+878,0,3,male,0,0,19,Southampton,"Chicago, Illinois, US",3
+879,0,3,male,0,0,23,Southampton,"Chicago, Illinois, US",3
+880,1,1,female,0,1,56,Cherbourg,"Philadelphia, Pennsylvania, US",1
+881,1,2,female,0,1,25,Southampton,"Deer Lodge, Montana, US",2
+882,0,3,male,0,0,33,Cherbourg,New York City,3
+883,0,3,female,0,0,22,Southampton,"Chicago, Illinois, US",3
+884,0,2,male,0,0,28,Southampton,"Houghton, Michigan, US",2
+885,0,3,male,0,0,25,Southampton,"Buffalo, New York, US",3
+886,0,3,female,0,5,39,Queenstown,"Spokane, Washington, US",3
+887,0,2,male,0,0,27,Southampton,"Worcester, Massachusetts, US",2
+888,1,1,female,0,0,19,Southampton,"Greenwich, Connecticut, US",1
+889,0,3,female,1,2,7,Southampton,"New London, Connecticut, US",3
+890,1,1,male,0,0,26,Cherbourg,"New York, New York, US",1
+891,0,3,male,0,0,43,Queenstown,New York City,3
