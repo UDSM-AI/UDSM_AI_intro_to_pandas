@@ -8,7 +8,7 @@ import os
 # =========== ⚠ PROVIDE YOUR USERNAME HERE ==============
 # ========================================================
 
-username = "eddiegulay" # Replace with your username
+username = "EDGARJN" # Replace with your username
 
 # you can edit this to any number of patients you want
 num_patients = 100
@@ -19,6 +19,8 @@ num_patients = 100
 
 # create new directory with name username
 if not os.path.exists(username):
+    # newFolder = os.getcwd()
+    # os.path.join(newFolder,)
     os.makedirs(username)
 
 
@@ -59,4 +61,4 @@ df = pd.DataFrame(data, columns=columns)
 # ========================================================
 # Save the DataFrame to a CSV file named "challenge_initial_dataset.csv"
 # ========================================================
-df.to_csv(f"{username}/challenge_initial_dataset.csv")
+df.to_csv(f"{username}/challenge_initial_dataset.csv",index=False)
