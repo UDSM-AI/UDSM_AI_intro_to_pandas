@@ -8,10 +8,10 @@ import os
 # =========== ⚠ PROVIDE YOUR USERNAME HERE ==============
 # ========================================================
 
-username = "EDGARJN" # Replace with your username
+username = "machakelvin" # Replace with your username
 
 # you can edit this to any number of patients you want
-num_patients = 100
+num_patients = 101
 
 # ========================================================
 # =========== ================= 🤖
@@ -30,7 +30,7 @@ np.random.seed(123)
 
 # Generate sample data
 # you can edit this to any number of patients you want
-num_patients = 100
+num_patients = 101
 
 patient_ids = np.array(['P{:03}'.format(i) for i in range(1, num_patients + 1)])
 admission_dates = np.array([datetime(2022, 1, 1) + timedelta(days=random.randint(0, 365)) for _ in range(num_patients)])
